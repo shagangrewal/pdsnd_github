@@ -12,6 +12,12 @@ The project analyzes the data over the 3 major cities and usage of the bikes acr
 2. Washington
 3. Chicago
 
+Through the data, we have attempted to analyze the usage across mutiple users.
+Following are few of the parameters, which we have analyzed
+1. Most stations used
+2. Most traffic time across stations
+3. What are busiest days and hours
+
 ### Files used
 Following are the files used for the data analyzation
 1. new_york_city.csv
