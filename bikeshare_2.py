@@ -74,10 +74,10 @@ def time_stats(df):
     start_time = time.time()
 
     # TO DO: display the most common month
-    print('Most Common Month: ', df['month'].mode()[0])
+    print('Most Populated Month: ', df['month'].mode()[0])
 
     # TO DO: display the most common day of week
-    print('Most Common Day: ', df['day'].mode()[0])
+    print('Most Populated Day: ', df['day'].mode()[0])
 
     # TO DO: display the most common start hour
     print('Most Common Start Hour: ', df['Start Time'].dt.hour.mode()[0])
@@ -87,7 +87,7 @@ def time_stats(df):
 
 
 def station_stats(df):
-    """Displays statistics on the most popular stations and trip."""
+    """Displays statistics on the most popular stations used and trips frequent between two stations."""
 
     print('\nCalculating The Most Popular Stations and Trip...\n')
     start_time = time.time()
@@ -113,10 +113,10 @@ def trip_duration_stats(df):
     start_time = time.time()
 
     # TO DO: display total travel time
-    print('Total Duration of all the trips: ', np.sum(df['Trip Duration']))
+    print('Total Duration: ', np.sum(df['Trip Duration']))
 
     # TO DO: display mean travel time
-    print('Average Duration of all the trips: ', np.mean(df['Trip Duration']))
+    print('Mean Duration: ', np.mean(df['Trip Duration']))
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-' * 40)
