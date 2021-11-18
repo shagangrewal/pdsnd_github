@@ -17,6 +17,12 @@ Following are few of the parameters, which we have analyzed
 1. Most stations used
 2. Most traffic time across stations
 3. What are busiest days and hours
+4. What are longest and average duration of the trips
+5. User stats based on the gender 
+
+The program uses all the data and ask the user inputs.
+The user can select which city and month and the day he wants to see the data off.
+User can select all or individual stats
 
 ### Files used
 Following are the files used for the data analyzation
